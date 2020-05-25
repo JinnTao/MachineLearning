@@ -98,7 +98,7 @@ if __name__ ==  '__main__':
     ax.set_ylabel('Y')
     ax.set_zlabel('Z')
     ax.set_title(u'EM算法分类',fontsize=18)
-    plt.subtitle(u'EM算法的实现',fontsize=21)
+    plt.title(u'EM算法的实现',fontsize=21)
     plt.subplots_adjust(top=0.90)
     plt.tight_layout()
     plt.show()

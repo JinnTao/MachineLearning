@@ -30,5 +30,12 @@ def test():
     plt.figure()
     plt.hist(w_list)
     plt.show()
+
+def cos():
+    x = np.arange(600)
+    y =np.cos( 6*x * np.pi / 600.)
+    plt.figure(facecolor='w')
+    plt.plot(x,y)
+    plt.show()
 if __name__ == '__main__':
-    poly_regression()
+    cos()
